@@ -1,0 +1,10 @@
+var bintang = "",
+  n = 5;
+
+for (var i = 0; i < n; i++) {
+  for (var j = 0; j < n; j++) {
+    bintang += "*";
+  }
+  bintang += "\n";
+}
+console.log(bintang);
